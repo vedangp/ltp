@@ -209,6 +209,7 @@ do
 			: $(( index += 1 ))
 		fi
 		tests[$index]="$OPTARG"
+		
 		if [ $index -eq 0 ]; then
 			tests[$index + 1]=$LOOP
 		fi
